@@ -19,3 +19,10 @@ Asserts are written as:
 Assert( expression, "Assert description");
 
 Failed Asserts that are skipped are written to a file for future reference.
+
+
+To run your tests simply call:
+
+RUN_TESTS();
+
+This will run all tests currently in the test list.
