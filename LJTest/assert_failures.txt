@@ -10,3 +10,47 @@ Failure File: c:\users\lee\documents\visual studio 2012\projects\ljtest\ljtest\l
 Failure Line: 19
 Failure Description: Another failure description
 
+Failure File: c:\users\lee\documents\visual studio 2012\projects\ljtest\ljtest\ljtestmain.cpp
+Failure Line: 17
+Failure Description: Assert failure description goes here
+
+Failure File: c:\users\lee\documents\visual studio 2012\projects\ljtest\ljtest\ljtestmain.cpp
+Failure Line: 24
+Failure Description: Another failure description
+
+Failure File: c:\users\lee\documents\visual studio 2012\projects\ljtest\ljtest\ljtestmain.cpp
+Failure Line: 17
+Failure Description: Assert failure description goes here
+
+Failure File: c:\users\lee\documents\visual studio 2012\projects\ljtest\ljtest\ljtestmain.cpp
+Failure Line: 24
+Failure Description: Another failure description
+
+Failure File: c:\users\lee\documents\visual studio 2012\projects\ljtest\ljtest\ljtestmain.cpp
+Failure Line: 17
+Failure Description: Assert failure description goes here
+
+Failure File: c:\users\lee\documents\visual studio 2012\projects\ljtest\ljtest\ljtestmain.cpp
+Failure Line: 24
+Failure Description: Another failure description
+
+Failure File: c:\users\lee\documents\visual studio 2012\projects\ljtest\ljtest\ljtestmain.cpp
+Failure Line: 17
+Failure Description: Assert failure description goes here
+
+Failure File: c:\users\lee\documents\visual studio 2012\projects\ljtest\ljtest\ljtestmain.cpp
+Failure Line: 24
+Failure Description: Another failure description
+
+Failure File: c:\users\lee\documents\visual studio 2012\projects\ljtest\ljtest\ljtestmain.cpp
+Failure Line: 54
+Failure Description: Failure description for test
+
+Failure File: c:\users\lee\documents\visual studio 2012\projects\ljtest\ljtest\ljtestmain.cpp
+Failure Line: 17
+Failure Description: Assert failure description goes here
+
+Failure File: c:\users\lee\documents\visual studio 2012\projects\ljtest\ljtest\ljtestmain.cpp
+Failure Line: 24
+Failure Description: Another failure description
+

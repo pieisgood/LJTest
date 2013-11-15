@@ -15,6 +15,7 @@ TEST(example, "Test description goes here"){
 	int testing_other_int = 1;
 
 	Assert(testing_int == testing_other_int, "Assert failure description goes here");
+
 }
 
 TEST(otherExample, "Another description"){
@@ -25,30 +26,41 @@ TEST(otherExample, "Another description"){
 
 }
 
+
+//to create a test that has a setup and tear down method
+//create a class and inherit publicly from TestParent
+//create any methods you need and then create a test
+//as shown below.
 class ExampleClassTest : public TestParent {
 public:
+
 	virtual void setup() {
 		thing = 1;
 		other_thing = 2;
-	};
+	}
 
 	virtual void tearDown() {
 		thing = 0;
 		other_thing = 0;
-	};
+	}
 
-	virtual void run();
+	virtual const char* GetDesc() {return "Description";}
 
-	virtual const char* GetDesc() {return "Description";};
-
-private:
+protected:
 	int thing;
 	int other_thing;
+	
 };
 
-TEST_CLASS(ExampleClassTest, "description of our specific test"){
+TEST_CLASS(ExampleClassTest, testFail){
 
 	Assert(thing == other_thing, "Failure description for test");
+
+}
+
+TEST_CLASS(ExampleClassTest, testPass){
+
+	Assert( thing == (other_thing - 1), "We should pass this");
 
 }
 
