@@ -71,3 +71,12 @@ TEST_CLASS(ExampleClassTest, testPass){
 ```
 
 We create our setup and teardown methods and call TEST_CLASS( ourClass, OurTestName) and write our test.
+
+Then we use 
+```C++
+RUN_CLASS_TEST();
+```
+to run our class tests.
+
+In the end we get an output that looks like this:
+![alt text](https://raw.github.com/pieisgood/LJTest/master/LJTest/TestFailPass.gif "Command Line Tests")
