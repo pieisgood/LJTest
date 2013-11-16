@@ -8,7 +8,6 @@ Put the files into your source directory and #include "SimpleTest.h"
 Each test is written as:
 
 ```C++
-```
 TEST( test_name, "Test description"){
 
 
