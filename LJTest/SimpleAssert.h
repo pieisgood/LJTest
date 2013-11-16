@@ -28,6 +28,7 @@ extern bool QDGE_ASSERT( bool, char*, int, char*);
 
 #endif
 
+
 bool QDGE_ASSERT( bool exp, char* desc, int line, char* file_name);
 
 #endif

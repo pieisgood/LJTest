@@ -54,13 +54,15 @@ protected:
 
 TEST_CLASS(ExampleClassTest, testFail){
 
-	Assert(thing == other_thing, "Failure description for test");
+	SOFT_ASSERT(thing == other_thing, "Our integers did not match up!");
+	SOFT_ASSERT(thing == other_thing, "Our integers did not match up! AGAIN!");
+	SOFT_ASSERT(thing == other_thing, "Our integers did not match up! AGAIN! Some other failure");
 
 }
 
 TEST_CLASS(ExampleClassTest, testPass){
 
-	Assert( thing == (other_thing - 1), "We should pass this");
+	SOFT_ASSERT( thing == (other_thing - 1), "We should pass this");
 
 }
 
